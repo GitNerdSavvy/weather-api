@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;600;700&display=swap');
+body{
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-weight: 600;
+}
+.main-box{
+    
+    margin-top: 5%;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 25% 75%; 
+   
+}
+.load{
+  font-size: larger;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lightsky{
+    background-color: rgb(88, 140, 253); 
+    padding: 10px;
+    margin-left: 40px;
+   margin-right: -20px;
+   border-radius: 20px 0 0 20px;
+}
+.data{
+    background-color: rgb(223, 219, 219,0.9);
+   
+    padding: 10px;
+    margin-right: 40px;
+    border-radius: 20px;
+}
+.options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.ico1{
+   
+	width: 34px;
+	height: 34px;
+	border-radius: 999px;
+	font-size: 28px;
+	font-weight: 900;
+	color:aqua;
+	background-color: white;
+	cursor: pointer;
+}
+.colz {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.colz svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+
+
+
+.city-details{
+   margin-top: 40px;
+   
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.date{
+   font-size: x-small;
+}
+.temp-details{
+    margin-top: 20px;
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+}
+.temp{
+    font-size: 80px;
+    font-weight: 800;
+}
+.time-graph {
+    color: black;
+    margin: 29px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    border-radius: 28px; 
+    width: 1000px; 
+    height: 350px; 
+  }
+
+
+  /* tags */
+  .data-left{
+    margin: 29px;
+    color: black;
+  }
+
+  .info{
+    color: black;
+    margin: 30px;
+  }
+
+
+
+  .time-graph {
+    max-width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 48px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+
+
+    /* 6box */
+.container {
+  display: grid;
+  margin-left: 40px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 20px; 
+}
+  .cols {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 42px;
+    padding: 15px;
+    background-color: #f5f5f5;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    width: 250px;
+    height: 150px;
+  }
+  
+  .col-title {
+    
+  color: black;
+  font-weight: bold;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  }
+  
+  .col-value {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin-top: 30px; 
+  }
+  .col-indicator{
+    color: black;
+  }
+  
