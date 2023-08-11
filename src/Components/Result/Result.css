@@ -120,6 +120,8 @@ body{
 
 
   .time-graph {
+    display: flex;
+    flex-direction: column;
     max-width: 100%;
     margin-top: 20px;
     padding: 20px;
@@ -148,12 +150,12 @@ body{
     background-color: #f5f5f5;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
     text-align: center;
-    width: 250px;
+    width: 290px;
     height: 150px;
   }
   
   .col-title {
-    
+   
   color: black;
   font-weight: bold;
   padding: 5px 10px;
@@ -164,9 +166,20 @@ body{
     font-size: 18px;
     font-weight: bold;
     color: black;
-    margin-top: 30px; 
+    
+    
   }
   .col-indicator{
     color: black;
   }
+
+  .ico{
+    margin-left: 110px;
+    border-radius: 8px;
+    padding: 7px;
+    background-color:  rgb(88, 140, 253); 
+  }
+
+
+  
   
